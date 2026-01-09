@@ -7,7 +7,7 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  
   font-style: normal;
 }
 
@@ -226,6 +226,7 @@ nav .get-button:hover {
 
 .brain{
     display: flex;
+    justify-content: space-between;
     padding: 120px 120px ;
 }
 
@@ -237,11 +238,12 @@ nav .get-button:hover {
 
 .brain{
     display: flex;
+   
 }
 
  .solution-txt h4{
     color:#30B868;
-    font size: 16px;
+    font-size: 16px;
     line-height: 20px;
     margin-bottom:16px;
     
@@ -266,23 +268,24 @@ nav .get-button:hover {
     font-size: 16px;
 }
 
-icon-txt-flex{
+.icon-txt-flex{
     list-style: none;
 }
 
 .flexing{
-    display: flex;
-    margin-bottom: 16px;
     list-style:none;
-    text-align: center;
-    justify-content: center;
+    
 }
+
 
 .rdy-bns{
     padding: 120px 120px;
     text-align: center;
     justify-content: center;
     background-color: #F7F6F2;
+    height: 384px;
+    width: 1360px;
+
 }
 
 .rdy-bns h2{
@@ -299,7 +302,7 @@ icon-txt-flex{
 }
 
 #para2{
-    color: #627382
+    color: #627382;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -323,4 +326,53 @@ icon-txt-flex{
     justify-content: center;
     text-align: center;
     margin-bottom: 16px;
+}
+
+.ftr{
+    display: flex;
+    justify-content: space-between;
+    gap: 800px;
+    height: 348px;
+    width: auto ;
+    padding: 120px 120px 80px;
+    
+}
+
+footer{
+    background-color:#001931;
+}
+#footer-txt{
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 16px;
+
+}
+
+.ft-t{
+     width: 30px;
+    height: 30px;
+    background-color: #fcebeb;
+    border-radius: 50%;
+
+}
+
+#kv-ft{
+     width:139px;
+    height: 60px;
+}
+
+.line-ft{
+    width: 1360px;
+    height: 1px;
+    color: #ffffff;
+
+}
+
+.footer-copy{
+    font-size: 18px;
+    color: white;
+
+    padding: 30px 30px;
+    text-align: center;
 }
