@@ -37,6 +37,8 @@ nav .menu{
     list-style: none;
     gap: 32px;
     align-items: center;
+    text-decoration:none;
+    
 }
 
 
@@ -56,17 +58,116 @@ nav .get-button{
     justify-content: center;
     font-size: 16px;
     font-weight:bold;
-    
+    cursor: pointer;
 }
 
-nav .menu a{
+
+nav .get-button:hover {
+        background-color: #ed310f;}
+
+    nav .menu a:hover {
+        color: #06c154;
+        
+    }
+
+
+#banner{
+
+    background-image: url("./assets/hero-bg.png");
+    width: 1600px ;
+    height: 583px;
+    background-position: center;
+    padding: 70px 120px;
+    
+  
+
+} 
+
+.str{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+}
+
+.note{
+    color:#30B868 ;
+    font-size: 72px;
+    text-align: center;
+    margin: 16px 0px;
+}
+.para
+{
+    color:#FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    padding: 16px 32px;
+}
+.banner-text {
+    text-align: center;
+}
+.early-btn{
+    
+    color: #30B868;
+    border-radius: 4px;
+    background-color: white;
+    height: 35px;
+    width: 229px;
+    border: none;
+    justify-content: center;
     font-size: 16px;
-    color: #000000;
-    text-decoration: none;
+    font-weight:bold;
+    cursor: pointer;
 }
-     
+.see-btn{
+    list-style: none;
+    align-items: center;
+    background-color: #469165;
+    border-radius: 4px;
+    color: white;
+    height: 52px;
+    width: 251px;
+    border: none;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
 }
-body{
+.works-btn{
+
+    align-items: center;
+    border: px solid #ffffff;
+    border-radius: 4px;
+    background-color: transparent;
+   border: 1px solid #ffffff;
+    color: white;
+    height: 52px;
+    width: 198px;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+#notes{
+    margin-top: 40px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+.h2-note{
+    font-size: 48px;
+    text-align: center;
+}
+.para2{
+    margin-top: 16px;
     
-    
+    font-size: 16px;
+    color: #627382;
 }
