@@ -108,10 +108,22 @@ nav .get-button:hover {
 }
 .banner-text {
     text-align: center;
+    align-items: center;
+}
+
+.banner-icon{
+width: 40px;
+height: 40px;
+
+}
+#banner-icon{ background-color: rgb(255, 6, 6);
+
 }
 .early-btn{
     
     color: #30B868;
+    display: inline-flex;
+    align-items: center;
     border-radius: 4px;
     background-color: white;
     height: 35px;
@@ -121,6 +133,8 @@ nav .get-button:hover {
     font-size: 16px;
     font-weight:bold;
     cursor: pointer;
+    gap: 8px;
+    padding-right : 6px;
 }
 .see-btn{
     list-style: none;
@@ -237,9 +251,7 @@ nav .get-button:hover {
     margin-bottom: 16px;
 }
 
-.ntsr{
-    background-color:#e6e6e6 ;
-}
+
 .cards-2{
     display: flex;
     justify-content: center;
