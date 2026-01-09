@@ -124,6 +124,7 @@ nav .get-button:hover {
 }
 .see-btn{
     list-style: none;
+    display: inline-flex;
     align-items: center;
     background-color: #469165;
     border-radius: 4px;
@@ -134,11 +135,13 @@ nav .get-button:hover {
     font-size: 16px;
     font-weight:bold;
     cursor: pointer;
+    padding: 22px;
 }
 .works-btn{
 
     align-items: center;
     border: px solid #ffffff;
+    display:inline-flex;
     border-radius: 4px;
     background-color: transparent;
    border: 1px solid #ffffff;
@@ -148,13 +151,16 @@ nav .get-button:hover {
     font-size: 16px;
     font-weight:bold;
     cursor: pointer;
+    padding: 22px;
 }
 
 .btn2{
     display: flex;
-    justify-content: center;
-    gap: 16px;
+    gap:16px;
     align-items: center;
+    text-align: center;
+    
+    
 }
 #notes{
     margin-top: 40px;
@@ -332,7 +338,7 @@ nav .get-button:hover {
     display: flex;
     justify-content: space-between;
     gap: 800px;
-    height: 348px;
+    
     width: auto ;
     padding: 120px 120px 80px;
     
@@ -362,13 +368,6 @@ footer{
     height: 60px;
 }
 
-.line-ft{
-    width: 1360px;
-    height: 1px;
-    color: #ffffff;
-
-}
-
 .footer-copy{
     font-size: 18px;
     color: white;
@@ -376,3 +375,9 @@ footer{
     padding: 30px 30px;
     text-align: center;
 }
+.line-ft{
+    width: 70%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
