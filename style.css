@@ -37,8 +37,11 @@ nav .menu{
     list-style: none;
     gap: 32px;
     align-items: center;
-    text-decoration:none;
     
+}
+
+nav a{
+    text-decoration: none;
 }
 
 
@@ -286,7 +289,7 @@ icon-txt-flex{
     color: black;
     font-size: 40px;
     font-weight: bold;
-    border-bottom: 16px;
+    margin-bottom:16px;
 }
 
 #p1{ color: #627382;
