@@ -137,6 +137,35 @@ nav .get-button:hover {
     cursor: pointer;
     padding: 22px;
 }
+.see-btn:hover{
+     background-color: #ed310f;
+
+        color: #e3e3e3;
+}
+
+
+     .works-btn:hover{
+     background-color: #ed310f;
+
+        color: #ffffff;
+}
+   .early-btn:hover
+   {
+    
+     background-color: #ed310f;
+
+        color: #ffffff;
+}
+
+  .get7button:hover
+{
+    
+     background-color: #ed310f;
+
+        color: #ffffff;
+}
+
+
 .works-btn{
 
     align-items: center;
@@ -156,7 +185,6 @@ nav .get-button:hover {
 
 .btn2{
     display: flex;
-    gap:16px;
     align-items: center;
     text-align: center;
     
@@ -169,6 +197,7 @@ nav .get-button:hover {
     justify-content: center;
     gap: 24px;
     align-items: center;
+    
 }
 .h2-note{
     font-size: 48px;
@@ -207,20 +236,26 @@ nav .get-button:hover {
     align-items: center;
     margin-bottom: 16px;
 }
+
+.ntsr{
+    background-color:#e6e6e6 ;
+}
 .cards-2{
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin-top: 50px auto;
+    margin-top: 50px ;
     margin-bottom: 80px;
     padding: 0 20px;
     text-align: center;
     align-items: stretch;
+    
 }
 
 .card-text h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    
    
     
     }
